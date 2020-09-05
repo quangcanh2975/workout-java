@@ -11,12 +11,17 @@
         android:id="@+id/textTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:text="" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <TextView
         android:id="@+id/textDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="" />
+
+    <fragment
+        android:id="@+id/stopwatch"
+        class="com.hfad.workout.Stopwatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
