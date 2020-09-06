@@ -19,9 +19,13 @@
         android:layout_height="wrap_content"
         android:text="" />
 
-    <fragment
-        android:id="@+id/stopwatch"
-        class="com.hfad.workout.Stopwatch"
-        android:layout_width="match_parent"
+    <FrameLayout
+        android:id="@+id/stopwatch_container"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <!--    <fragment-->
+    <!--        android:id="@+id/stopwatch"-->
+    <!--        class="com.hfad.workout.Stopwatch"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content" />-->
 </LinearLayout>
